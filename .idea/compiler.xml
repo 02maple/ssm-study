@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mvc-exception" />
+        <module name="mvc-result" />
+        <module name="ssm" />
+        <module name="mvc-page" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mvc-exception (1)" target="1.7" />
+      <module name="mvc-exception (2)" target="1.7" />
+      <module name="ssm (1)" target="1.7" />
+      <module name="ssm (2)" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
