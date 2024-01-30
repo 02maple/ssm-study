@@ -1,0 +1,5 @@
+<mapper namespace="com.maple.dao.BookDao">
+    <select id="getById" resultType="com.maple.domain.Book">
+        SELECT * FROM tbl_book where id = #{id};
+    </select>
+</mapper>
